@@ -1,7 +1,7 @@
 ---
 marp: true
-title: Hello
-description: World
+title: Containerization | Pietercil
+description: A presentation about containerization and the usage within an organisation
 author: Wim Suenens
 # backgroundColor: transparent
 # backgroundImage: url('https://images.unsplash.com/photo-1720884413532-59289875c3e1?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')
@@ -165,7 +165,7 @@ footer: 'Containerization - _from virtualization to isolation_'
 
 ## Hypervisors
 
-![h:500 center](assets/hypervisor-types.png)
+![h:500 center](./assets/hypervisor-types.png)
 
 ---
 
@@ -215,7 +215,7 @@ footer: 'Containerization - _from virtualization to isolation_'
 
 ## Virtual Machines vs. Containers
 
-![h:500 center](assets/virtualmachines_vs_containers.png)
+![h:500 center](./assets/virtualmachines_vs_containers.png)
 
 ---
 
@@ -448,49 +448,7 @@ table {
 ![w:1000 center](./assets/OpenSource.png)
 
 ---
-<!--
-paginate: false
-header: ''
-footer: ''
--->
-<style scoped>
-section {
-   justify-content: center;
-}
-</style>
 
-## Thank You!
-<!-- :fire: :skull: :ski: :white_check_mark: :pencil: :memo: :earth_africa: -->
-
-Questions?
-
-![bg right saturate:1.2 height:75% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](./assets/containers.jpg)
-
----
-
-To convert this Markdown file to a PDF in landscape mode, you can follow these steps:
-
-1. Install Marp CLI:
-   ```
-   npm install -g @marp-team/marp-cli
-   ```
-
-2. Save the Markdown content to a file, e.g., `containerization_benefits.md`.
-
-3. Run the following command to generate a PDF:
-   ```
-   marp --pdf --allow-local-files --theme default containerization_benefits.md
-   ```
-
----
-
-This will create a PDF file named `containerization_benefits.pdf` in the same directory.
-
-The `--allow-local-files` option is used to allow the inclusion of local images. Make sure to replace the `placeholder_*.png` references with actual image files in the same directory as your Markdown file.
-
-The `size: 16:9` in the Markdown frontmatter ensures that the slides are in landscape mode.
-
----
 <!--
 _class: lead
 -->
@@ -509,9 +467,28 @@ _class: lead
 - [What is Kubernetes Architecture?](https://www.qovery.com/blog/what-is-kubernetes-architecture/)
 
 <!--
-x- [Intro to the cloud-native world of Kubernetes](https://speakerdeck.com/luxas/intro-to-the-cloud-native-world-of-kubernetes-january-2019?slide=19)
+- [Intro to the cloud-native world of Kubernetes](https://speakerdeck.com/luxas/intro-to-the-cloud-native-world-of-kubernetes-january-2019?slide=19)
 - [Containers and Kubernetes](https://www.slideshare.net/slideshow/containers-and-kubernetes-195702113/195702113)
 - [Kubernetes PPT.pptx](https://www.slideshare.net/slideshow/kubernetes-pptpptx/259248114#2)
 - [Containers, Dockers, and Kubernetes](https://www.cse.wustl.edu/~jain/cse570-18/m_21cdk.htm)
 - [The 4 C’s Of Kubernetes Security](https://dev.to/thenjdevopsguy/the-4-cs-of-kubernetes-security-3i9e)
 -->
+
+---
+<!--
+paginate: false
+header: ''
+footer: ''
+-->
+<style scoped>
+section {
+   justify-content: center;
+}
+</style>
+
+## Thank You!
+<!-- :fire: :skull: :ski: :white_check_mark: :pencil: :memo: :earth_africa: -->
+
+Questions?
+
+![bg right saturate:1.2 height:75% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](./assets/containers.jpg)

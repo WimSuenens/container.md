@@ -1,6 +1,11 @@
 FROM node:18-alpine AS builder
 
-RUN npm install -g @marp-team/marp-cli
+ENV NODE_OPTIONS="--dns-result-order=ipv4first"
+
+RUN apk update \
+  && apk upgrade --no-cache
+
+RUN npm install -g @marp-team/marp-cli -y
 
 FROM builder
 
